@@ -2,6 +2,7 @@ import React from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import LayoutWrapper from "../LayoutWrapper";
 import CoArtLogo from "../../assets/CoArt_logo.png";
+import Button from "../Form/Button";
 
 const Header: React.FC = () => {
   const intl = useIntl();
@@ -17,6 +18,8 @@ const Header: React.FC = () => {
         <h1 className="text-3xl text-white font-semibold tracking-widest">
           <FormattedMessage id="COART_PLATFORM" />
         </h1>
+
+        <Button>DATA ROOM</Button>
       </LayoutWrapper>
     </header>
   );

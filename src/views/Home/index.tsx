@@ -55,13 +55,6 @@ const Home: React.FC = () => {
   return (
     <main className="mt-10">
       <LayoutWrapper className="space-y-20">
-        <section>
-          <QuestionForm
-            useFormInstance={useFormReturn}
-            submitQuestionForm={submitButtonFormHandler}
-          />
-        </section>
-
         <section className="space-y-5">
           <h2 className="text-white text-2xl text-center font-light tracking-widest">
             <FormattedMessage id="OUR_PRODUCTS" />
@@ -98,7 +91,7 @@ const Home: React.FC = () => {
           </h2>
           <YouTube
             className="w-full"
-            videoId="jfKfPfyJRdk"
+            videoId="VCT7kejdCCU"
             iframeClassName="w-full h-96 rounded-lg"
           />
         </section>
@@ -106,12 +99,19 @@ const Home: React.FC = () => {
         <Timeline
           dataSource={{
             sourceType: "profile",
-            screenName: "elonmusk",
+            screenName: "coart_market",
           }}
           options={{
-            height: "400",
+            height: "500",
           }}
         />
+
+        <section>
+          <QuestionForm
+            useFormInstance={useFormReturn}
+            submitQuestionForm={submitButtonFormHandler}
+          />
+        </section>
       </LayoutWrapper>
     </main>
   );
