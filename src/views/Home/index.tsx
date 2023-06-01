@@ -1,6 +1,6 @@
 import React from "react";
 import YouTube from "react-youtube";
-// import { TwitterTimelineEmbed } from "react-twitter-embed";
+import { Timeline } from "react-twitter-widgets";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { FormattedMessage, useIntl } from "react-intl";
@@ -103,11 +103,15 @@ const Home: React.FC = () => {
           />
         </section>
 
-        {/* <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="elonmusk"
-          options={{ height: 800 }}
-        /> */}
+        <Timeline
+          dataSource={{
+            sourceType: "profile",
+            screenName: "elonmusk",
+          }}
+          options={{
+            height: "400",
+          }}
+        />
       </LayoutWrapper>
     </main>
   );
