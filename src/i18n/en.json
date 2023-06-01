@@ -1,0 +1,12 @@
+{
+    "LOGO": "CoArt Logo",
+    "BUTTON.SEND_QUESTION": "SEND QUESTION",
+    "INPUT.EMAIL_TYPE": "This field must be of type email!",
+    "INPUT.EMAIL_REQUIRED": "Email is a required field!",
+    "INPUT.QUESTION_REQUIRED": "Question is a required field!",
+    "INPUT.QUESTION_PLACEHOLDER": "Tell us or ask us something",
+    "CONTACT_US": "CONTACT US",
+    "OUR_PRODUCTS": "OUR PRODUCTS",
+    "COART_PLATFORM": "CoArt Platform",
+    "PODCAST_APPEARANCES": "PODCAST APPEARANCES"
+}
