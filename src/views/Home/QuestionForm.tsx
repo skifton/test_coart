@@ -26,7 +26,7 @@ const LoginForm: React.FC<IProps> = ({
       className="space-y-6 text-center"
       onSubmit={handleSubmit(submitQuestionForm)}
     >
-      <h2 className="text-white text-2xl font-light tracking-widest">
+      <h2 className="text-white text-xl font-light tracking-widest">
         <FormattedMessage id="CONTACT_US" />
       </h2>
       <Controller

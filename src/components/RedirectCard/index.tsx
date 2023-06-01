@@ -19,8 +19,8 @@ const RedirectCard: React.FC<IProps> = ({ href, image, title, subtitle }) => {
       </div>
       <div className="flex w-1/2 justify-start items-center">
         <div className="space-y-3">
-          <h2 className="text-2xl font-medium">{title}</h2>
-          <p className="text-sm">{subtitle}</p>
+          <h2 className="text-xl font-medium">{title}</h2>
+          <p className="text-md">{subtitle}</p>
         </div>
       </div>
     </a>

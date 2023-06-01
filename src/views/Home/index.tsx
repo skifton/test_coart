@@ -53,10 +53,10 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main className="mt-10">
+    <main className="mt-10 text-base">
       <LayoutWrapper className="space-y-20">
         <section className="space-y-5">
-          <h2 className="text-white text-2xl text-center font-light tracking-widest">
+          <h2 className="text-white text-xl text-center font-light tracking-widest">
             <FormattedMessage id="OUR_PRODUCTS" />
           </h2>
           <RedirectCard
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
         </section>
 
         <section className="space-y-5">
-          <h2 className="text-white text-2xl text-center font-light tracking-widest">
+          <h2 className="text-white text-xl text-center font-light tracking-widest">
             <FormattedMessage id="PODCAST_APPEARANCES" />
           </h2>
           <YouTube

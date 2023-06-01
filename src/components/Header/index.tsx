@@ -16,7 +16,7 @@ const Header: React.FC = () => {
             src={CoArtLogo}
             alt={intl.formatMessage({ id: "LOGO" })}
           />
-          <h1 className="text-3xl text-white font-semibold tracking-widest">
+          <h1 className="text-2xl text-white font-semibold tracking-widest md:text-3xl">
             <FormattedMessage id="COART_PLATFORM" />
           </h1>
         </div>
