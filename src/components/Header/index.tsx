@@ -12,7 +12,7 @@ const Header: React.FC = () => {
       <LayoutWrapper className="flex items-center justify-between flex-col md:flex-row">
         <div className="flex items-center">
           <img
-            className="w-20 h-20 mr-8"
+            className="w-20 h-max mr-8"
             src={CoArtLogo}
             alt={intl.formatMessage({ id: "LOGO" })}
           />
