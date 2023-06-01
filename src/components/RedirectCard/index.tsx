@@ -10,7 +10,7 @@ interface IProps {
 const RedirectCard: React.FC<IProps> = ({ href, image, title, subtitle }) => {
   return (
     <a
-      className="flex w-full px-5 py-3 bg-white rounded-xl shadow-lg shadow-white transform hover:scale-105 transition duration-300 ease-in-out"
+      className="flex w-full px-5 py-3 space-x-6 bg-white rounded-xl shadow-md shadow-white transform hover:scale-105 transition duration-300 ease-in-out"
       href={href}
       target="_blank"
     >

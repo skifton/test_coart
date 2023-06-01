@@ -41,9 +41,7 @@ const Footer: React.FC = () => {
             className="h-8 w-8 text-white"
             fill="currentColor"
             viewBox="0 0 24 24"
-            version="1.1"
             xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlSpace="preserve"
           >
             <path
@@ -66,7 +64,7 @@ const Footer: React.FC = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            className="h-7 w-7 text-white"
+            className="h-8 w-8 text-white"
           >
             <path
               fill="currentColor"

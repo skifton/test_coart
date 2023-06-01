@@ -23,7 +23,7 @@ const LoginForm: React.FC<IProps> = ({
 
   return (
     <form
-      className="space-y-10 text-center"
+      className="space-y-6 text-center"
       onSubmit={handleSubmit(submitQuestionForm)}
     >
       <h2 className="text-white text-2xl font-light tracking-widest">
@@ -39,7 +39,7 @@ const LoginForm: React.FC<IProps> = ({
             maxLength={30}
             placeholder="E-mail"
             className="w-full"
-            wrapperClassName="text-center mb-10 mt-5"
+            wrapperClassName="text-center"
             error={Boolean(errors.email?.message)}
             helperText={errors.email?.message}
           />
@@ -57,7 +57,7 @@ const LoginForm: React.FC<IProps> = ({
               id: "INPUT.QUESTION_PLACEHOLDER",
             })}
             className="w-full"
-            wrapperClassName="text-center mt-10"
+            wrapperClassName="text-center"
             error={Boolean(errors.question?.message)}
             helperText={errors.question?.message}
           />
